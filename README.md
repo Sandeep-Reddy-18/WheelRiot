@@ -217,12 +217,6 @@ WheelRiot is self-hosted on a personal Ubuntu home server. Node.js backend proce
 
 ![Admin Settings](screenshots/11-admin-settings.png)
 
-## Future Improvements
-
-* Implement Redis for caching high-traffic product catalog queries.
-* Expand the unit and integration testing coverage (Jest/React Testing Library).
-* Introduce WebSockets for real-time order status updates to the client interface.
-
 ## Author
 
 **Sandeep Reddy**
