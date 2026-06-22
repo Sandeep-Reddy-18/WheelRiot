@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #000;
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ef4444; 
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+  }
+  @media (max-width: 640px) {
+    html {
+      font-size: 14px;
+    }
+  }
+  body {
+    @apply bg-background text-white antialiased;
+  }
+  h1, h2, h3, h4, .font-bold {
+    @apply tracking-tight;
+  }
+}
